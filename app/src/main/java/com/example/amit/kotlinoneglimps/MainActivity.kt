@@ -22,7 +22,7 @@ class MainActivity : AppCompatActivity() {
             bt_choose_food.setOnClickListener {
 
                 var randomMaster=Random();
-                var randomFood=randomMaster.nextInt(foodList.count())
+                var randomFood=randomMaster.nextInt(foodList.count();
                 tv_hello.text=foodList[randomFood];
 
 
