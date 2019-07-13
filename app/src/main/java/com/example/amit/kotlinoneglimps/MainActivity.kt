@@ -21,8 +21,8 @@ class MainActivity : AppCompatActivity() {
 
             bt_choose_food.setOnClickListener {
 
-                var randomDevelop=Random();
-                var randomFood=randomDevelop.nextInt(foodList.count())
+                var randomMaster=Random();
+                var randomFood=randomMaster.nextInt(foodList.count();
                 tv_hello.text=foodList[randomFood];
 
 
